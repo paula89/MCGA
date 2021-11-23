@@ -1,0 +1,32 @@
+C:\Users\alejo\source\repos\TP\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+C:\Users\alejo\source\repos\TP\BLL\bin\Debug\netstandard2.0\BLL.dll
+C:\Users\alejo\source\repos\TP\BLL\bin\Debug\netstandard2.0\BLL.pdb
+C:\Users\alejo\source\repos\TP\BLL\bin\Debug\netstandard2.0\Helpers.dll
+C:\Users\alejo\source\repos\TP\BLL\bin\Debug\netstandard2.0\Helpers.pdb
+C:\Users\alejo\source\repos\TP\BLL\obj\Debug\netstandard2.0\BLL.csprojAssemblyReference.cache
+C:\Users\alejo\source\repos\TP\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+C:\Users\alejo\source\repos\TP\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+C:\Users\alejo\source\repos\TP\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\alejo\source\repos\TP\BLL\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
+C:\Users\alejo\source\repos\TP\BLL\obj\Debug\netstandard2.0\BLL.dll
+C:\Users\alejo\source\repos\TP\BLL\obj\Debug\netstandard2.0\BLL.pdb
+C:\Users\alejo\source\repos\TP\BLL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\alejo\source\repos\TP\BLL\bin\Debug\netstandard2.0\Repository.dll
+C:\Users\alejo\source\repos\TP\BLL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\alejo\source\repos\TP\BLL\bin\Debug\netstandard2.0\Repository.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\bin\Debug\netstandard2.0\BLL.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\bin\Debug\netstandard2.0\BLL.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\bin\Debug\netstandard2.0\Helpers.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\bin\Debug\netstandard2.0\Repository.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\bin\Debug\netstandard2.0\Helpers.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\bin\Debug\netstandard2.0\Repository.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\obj\Debug\netstandard2.0\BLL.csproj.AssemblyReference.cache
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\obj\Debug\netstandard2.0\BLL.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\BLL\obj\Debug\netstandard2.0\BLL.pdb

@@ -1,0 +1,121 @@
+﻿
+html {
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper {
+    height: 100%;
+    min-height: 100vh;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    background: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+    #sidebar-wrapper .sidebar-heading {
+        padding: 1.26rem 1.26rem;
+        margin-top: 1.26rem;
+        margin-bottom: 1.26rem;
+        font-size: 1.464rem;
+        width: 100%;
+        border: groove #38d38f 1px;
+        border-radius: 25px;
+    }
+
+#sidebar-wrapper .list-group {
+        width: 100%;
+        
+}
+
+    #sidebar-wrapper .list-group-item {
+        width: 100%;
+        background-color: #38d39f;
+        border-color: #202020;
+        color: #202020;
+        border-radius: 2px;
+    }
+#sidebar-wrapper .list-group-item:hover, #LogoutBtn:hover {
+        background-color: #38d38f;
+}
+
+#sidebar-wrapper  .list-group-item:active{
+            background-color: #38d38f !important;
+            
+}
+
+
+
+#leftCol {
+    margin: auto;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.82);
+    color: #38d39f;
+    border-inline: 4px #38d38f solid;
+    border-radius: 5px;
+}
+
+#rightCol {
+    padding: 0px;
+    padding-right: 10px;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 10%;
+
+}
+
+#PageContent {
+    margin: auto;
+    width: 100%;
+    height: 100%
+}
+
+#FullPage{
+    margin: 0px;
+    padding: 0px;
+    width:100%
+}
+
+#LogoutBtn {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 80%;
+    background-color: #38d39f;
+    border-color: #202020;
+    color: #202020;
+    outline: none;
+}
+
+#LogoutBtn:hover {
+        background-color: #38d38f;
+}
+
+#LogoutBtn:active {
+        border-style: outset;
+}
+
+footer{
+    margin:auto;
+    padding-left:10px;
+    width: 100%;
+    height: 20px; 
+}
+
+#FullPageRow {
+    margin: 0px;
+    padding: 0px;
+    width: 100%
+}
+

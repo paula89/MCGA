@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CRUD-LPPA.master.cs" Inherits="CRUD_LPPA.CRUD_LPPA" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+<title><%: Page.Title %> - LPPA - CRUD</title>
+
+<asp:PlaceHolder runat="server">
+<%: Scripts.Render("~/bundles/modernizr") %>
+</asp:PlaceHolder>
+<link href="\Content\bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="\Scripts\jquery-3.4.1.min.js"></script>
+<script src="\Scripts\bootstrap.min.js"></script>
+<script type="text/javascript" src="\Scripts\LPPA\LoginScript.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+<link href="\Content\MasterStyle.css" rel="stylesheet" />
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="text/javascript" src="\Scripts\LPPA\UserScript.js"></script>
+
+
+</head>
+<body>
+<form runat="server">
+    <div class="container" id="FullPage">
+        <div class="row" id="FullPageRow">
+            <div class="col-sm-2" id="leftCol">
+                <div class="d-flex" id="wrapper">
+                    <div id="sidebar-wrapper">
+                        <div runat="server" class="sidebar-heading" id="userTitle">USUARIO</div>
+                        <div class="list-group list-group-flush">
+                            <a runat="server" onclick="location.replace('Default.aspx?user='+document.getElementById('userTitle').innerHTML); return false;" class="list-group-item list-group-item-action" >Inicio</a>
+                            <a runat="server" id="User" onclick="location.replace('seeUsersForm.aspx?user='+document.getElementById('userTitle').innerHTML);  return false;" class="list-group-item list-group-item-action" hidden>Users</a>
+                            <a runat="server" id="Admin" onclick="location.replace('seeUsersFormAdmin.aspx?user='+document.getElementById('userTitle').innerHTML); return false;" class="list-group-item list-group-item-action" hidden>Users</a>
+                            <a runat="server" id="SuperAdmin" onclick="location.replace('privilegesForm.aspx?user='+document.getElementById('userTitle').innerHTML);  return false;" class="list-group-item list-group-item-action" hidden>Privilegios</a>
+                        </div>
+
+                        <button type="button" class="btn btn-md" id="LogoutBtn" onclick="logout();">Logout</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10" id="rightCol">
+                <div class="container-fluid" id="PageContent">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <hr />
+                </div>
+                <footer>
+                        <p>&copy; CRUD-LPPA <%: DateTime.Now.Year %></p>
+               </footer>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+        <script>
+        $(document).ready(function(){
+            evalToken()
+            enableAccess()
+            
+            
+        })
+        </script>
+    
+</body>
+</html>

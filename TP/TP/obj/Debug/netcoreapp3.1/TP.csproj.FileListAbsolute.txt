@@ -1,0 +1,170 @@
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.csprojAssemblyReference.cache
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.AssemblyInfoInputs.cache
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.AssemblyInfo.cs
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.csproj.CoreCompileInputs.cache
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\TP.exe
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\TP.deps.json
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\TP.runtimeconfig.json
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\TP.runtimeconfig.dev.json
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\TP.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\TP.pdb
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Helpers.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Helpers.pdb
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\staticwebassets\TP.StaticWebAssets.Manifest.cache
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\staticwebassets\TP.StaticWebAssets.xml
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\scopedcss\bundle\TP.styles.css
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.RazorTargetAssemblyInfo.cache
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.csproj.CopyComplete
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.dll
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.pdb
+C:\Users\alejo\source\repos\TP\TP\obj\Debug\netcoreapp3.1\TP.genruntimeconfig.cache
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\alejo\source\repos\TP\TP\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\TP.exe
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\TP.deps.json
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\TP.runtimeconfig.json
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\TP.runtimeconfig.dev.json
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\TP.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\TP.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Helpers.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Helpers.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.csproj.AssemblyReference.cache
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.AssemblyInfoInputs.cache
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.AssemblyInfo.cs
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.csproj.CoreCompileInputs.cache
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\staticwebassets\TP.StaticWebAssets.Manifest.cache
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\staticwebassets\TP.StaticWebAssets.xml
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\scopedcss\bundle\TP.styles.css
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.RazorTargetAssemblyInfo.cache
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.csproj.CopyComplete
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.dll
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.pdb
+C:\Users\JuanM\Downloads\TP 1.5\TP\TP\obj\Debug\netcoreapp3.1\TP.genruntimeconfig.cache

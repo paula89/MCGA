@@ -1,0 +1,8 @@
+Crear DB con nombre LPPT.
+
+Cambiar clave de sa a SQLServer2020 o modificar la clave y la conexion en el back.
+
+Una vez conectada el back a la base, ejecutar la api 1 vez.
+
+Y luego correr el script - LPPT QUERY.
+
