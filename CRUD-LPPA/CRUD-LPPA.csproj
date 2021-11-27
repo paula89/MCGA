@@ -134,6 +134,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Index.aspx" />
     <Content Include="manageUsersForm.aspx" />
+    <Content Include="seeLogsForm.aspx" />
     <Content Include="privilegesForm.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -144,6 +145,7 @@
     <Content Include="Scripts\LPPA\LoginScript.js" />
     <Content Include="Scripts\LPPA\main.js" />
     <Content Include="Scripts\LPPA\PrivilegesScript.js" />
+    <Content Include="Scripts\LPPA\LogsScript.js" />
     <Content Include="Scripts\LPPA\UserScript.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
@@ -222,6 +224,13 @@
     <Compile Include="manageUsersForm.aspx.designer.cs">
       <DependentUpon>manageUsersForm.aspx</DependentUpon>
     </Compile>
+    <Compile Include="seeLogsForm.aspx.cs">
+      <DependentUpon>seeLogsForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seeLogsForm.aspx.designer.cs">
+      <DependentUpon>seeLogsForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="privilegesForm.aspx.cs">
       <DependentUpon>privilegesForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -261,6 +270,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

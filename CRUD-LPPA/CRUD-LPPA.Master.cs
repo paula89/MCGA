@@ -42,7 +42,9 @@ namespace CRUD_LPPA
             
             User.Visible = true;
             Admin.Visible = true;
-            SuperAdmin.Visible = true;
+            Panel.Visible = true;
+            Graficos.Visible = true;
+            Logs.Visible = true;
             
         }
 

@@ -252,18 +252,30 @@ function enableAccess() {
     var i = localStorage.getItem('privileges')
     let priviliges = i.split(",")
     for (x in priviliges) {
+        console.log(priviliges[x]);
+
         switch (priviliges[x]) {
             case "1": //Leer
                 document.getElementById('User').hidden = false
+                document.getElementById('Admin').hidden = true
+                document.getElementById('Panel').hidden = true
+                document.getElementById('Graficos').hidden = false
+                document.getElementById('Logs').hidden = true
                 break;
             case "2": //admin
                 document.getElementById('Admin').hidden = false
                 document.getElementById('User').hidden = true
+                document.getElementById('Panel').hidden = false
+                document.getElementById('Graficos').hidden = false
+                document.getElementById('Logs').hidden = true
                 break;
             case "5"://super admin
                 document.getElementById('User').hidden = true
                 document.getElementById('Admin').hidden = false
-                document.getElementById('SuperAdmin').hidden = false
+                document.getElementById('Panel').hidden = false
+                document.getElementById('Graficos').hidden = false
+                document.getElementById('Logs').hidden = false
+
                 break;
         }
     }

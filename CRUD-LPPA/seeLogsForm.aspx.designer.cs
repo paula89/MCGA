@@ -11,7 +11,7 @@ namespace CRUD_LPPA
 {
 
 
-    public partial class _Default
+    public partial class seeLogsForm
     {
     }
 }

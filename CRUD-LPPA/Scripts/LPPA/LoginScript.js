@@ -15,7 +15,7 @@ async function loginRequest(userName, password) {
 
 function logout() {
     localStorage.clear()
-    location.replace('Index.aspx')
+    location.assign('Index.aspx')
 }
 
 

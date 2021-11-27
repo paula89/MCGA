@@ -15,7 +15,6 @@
         <strong>Ariel Tolava:</strong> <a href="https://lmgtfy.app/?q=how+to+mailto" target="_blank">ArielTolava@example.com</a><br />
         <strong>Alejo:</strong>   <a href="https://lmgtfy.app/?q=how+to+mailto" target="_blank">Alejo@example.com</a><br />
         <strong>Paula:</strong> <a href="https://lmgtfy.app/?q=how+to+mailto" target="_blank">Paula@example.com</a><br />
-        <strong>Juan Flori:</strong>   <a href="https://lmgtfy.app/?q=how+to+mailto" target="_blank">JuanFlori@example.com</a><br />
         
     </address>
 </asp:Content>

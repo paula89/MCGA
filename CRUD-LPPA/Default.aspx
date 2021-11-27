@@ -6,14 +6,14 @@
 
     <div class="jumbotron">
         <h1>Bienvenido</h1>
-        <p class="lead">A la pagina de inicio de nuestro sistema de CRUD de usuarios y privilegios para el trabajo practico grupal de LPPA</p>
+        <p class="lead">A la pagina de inicio de nuestro panel de control para el trabajo practico grupal de MCGA</p>
     </div>
 
     <div class="row">
         <div class="col-md-4">
             <h2>Introducción</h2>
             <p>
-                En el menu de la izquierda tendra los accesos a las diferentes pantallas de la web y al final tienes el boton de logout para cerrar la session de tu cuenta.
+                En el menu de la izquierda tendra los accesos a las diferentes pantallas de la web y al final el boton de logout para cerrar la session de tu cuenta.
                 Si quieres aprender mas sobre el uso de la web haga click en el boton debajo para acceder al manual.
             </p>
             <p>
@@ -41,3 +41,4 @@
     </div>
 
 </asp:Content>
+<%--  --%>

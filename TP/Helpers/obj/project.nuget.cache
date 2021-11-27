@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "R+1482L/x8qsQ2zTd0f9gLhHJfVx+jIh2uK2cg0UmUYLdXmkjzDLwvKQXN/Aa/6DcbVeShjVwXE5XVoYOHwvEQ==",
+  "dgSpecHash": "O34uQaDx49OxameHbdCzEp3e5ooY8dxR6Qs6KPqGQbl2o8fow1GV0mesjuIN/2qjHvE2pcyvLWpehW8BdvDVGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JuanM\\Downloads\\TP 1.5\\TP\\Helpers\\Helpers.csproj",
+  "projectFilePath": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\Helpers\\Helpers.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JuanM\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\JuanM\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\paula\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\paula\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

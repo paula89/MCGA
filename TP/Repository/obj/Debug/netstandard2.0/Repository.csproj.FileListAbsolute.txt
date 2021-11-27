@@ -22,3 +22,16 @@ C:\Users\JuanM\Downloads\TP 1.5\TP\Repository\obj\Debug\netstandard2.0\Repositor
 C:\Users\JuanM\Downloads\TP 1.5\TP\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
 C:\Users\JuanM\Downloads\TP 1.5\TP\Repository\obj\Debug\netstandard2.0\Repository.dll
 C:\Users\JuanM\Downloads\TP 1.5\TP\Repository\obj\Debug\netstandard2.0\Repository.pdb
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\bin\Debug\netstandard2.0\Repository.deps.json
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\bin\Debug\netstandard2.0\Repository.dll
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\bin\Debug\netstandard2.0\Repository.pdb
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\bin\Debug\netstandard2.0\Helpers.dll
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\bin\Debug\netstandard2.0\Helpers.pdb
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.csproj.AssemblyReference.cache
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.dll
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.pdb

@@ -4,7 +4,7 @@
 
 <html lang="en">
 <head runat="server">
-<title><%: Page.Title %> - LPPA - CRUD</title>
+<title><%: Page.Title %> - MCGA</title>
 
 <asp:PlaceHolder runat="server">
 <%: Scripts.Render("~/bundles/modernizr") %>
@@ -32,10 +32,13 @@
                     <div id="sidebar-wrapper">
                         <div runat="server" class="sidebar-heading" id="userTitle">USUARIO</div>
                         <div class="list-group list-group-flush">
-                            <a runat="server" onclick="location.replace('Default.aspx?user='+document.getElementById('userTitle').innerHTML); return false;" class="list-group-item list-group-item-action" >Inicio</a>
-                            <a runat="server" id="User" onclick="location.replace('seeUsersForm.aspx?user='+document.getElementById('userTitle').innerHTML);  return false;" class="list-group-item list-group-item-action" hidden>Users</a>
-                            <a runat="server" id="Admin" onclick="location.replace('seeUsersFormAdmin.aspx?user='+document.getElementById('userTitle').innerHTML); return false;" class="list-group-item list-group-item-action" hidden>Users</a>
-                            <a runat="server" id="SuperAdmin" onclick="location.replace('privilegesForm.aspx?user='+document.getElementById('userTitle').innerHTML);  return false;" class="list-group-item list-group-item-action" hidden>Privilegios</a>
+                            <a runat="server" onclick="location.assign('Default.aspx?user='+document.getElementById('userTitle').innerHTML); return false;" class="list-group-item list-group-item-action" >Inicio</a>
+                            <a runat="server" id="User" onclick="location.assign('seeUsersForm.aspx?user='+document.getElementById('userTitle').innerHTML);  return false;" class="list-group-item list-group-item-action" hidden>Usuarios</a>
+                            <a runat="server" id="Admin" onclick="location.assign('seeUsersFormAdmin.aspx?user='+document.getElementById('userTitle').innerHTML); return false;" class="list-group-item list-group-item-action" hidden>Usuarios</a>
+                            <a runat="server" id="Panel" onclick="location.assign('seeLogsFormAdmin.aspx');return false;" class="list-group-item list-group-item-action" hidden>Panel de control</a>
+                            <a runat="server" id="Graficos" onclick="location.assign('seeLogsFormAdmin.aspx');return false;" class="list-group-item list-group-item-action" hidden>Gráficos</a>
+                            <a runat="server" id="Logs" onclick="location.assign('seeLogsForm.aspx?user='+document.getElementById('userTitle').innerHTML);return false;" class="list-group-item list-group-item-action" hidden>Logs</a>
+
                         </div>
 
                         <button type="button" class="btn btn-md" id="LogoutBtn" onclick="logout();">Logout</button>
@@ -49,7 +52,7 @@
                         <hr />
                 </div>
                 <footer>
-                        <p>&copy; CRUD-LPPA <%: DateTime.Now.Year %></p>
+                        <p>&copy; MCGA <%: DateTime.Now.Year %></p>
                </footer>
             </div>
         </div>
