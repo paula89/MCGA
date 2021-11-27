@@ -1,18 +1,18 @@
-﻿<%@ Page Title="Logs" Language="C#" MasterPageFile="~/CRUD-LPPA.Master" AutoEventWireup="true" CodeBehind="seeLogsForm.aspx.cs" Inherits="CRUD_LPPA.seeLogsForm" %>
+﻿<%@ Page Title="Panel de control" Language="C#" MasterPageFile="~/CRUD-LPPA.Master" AutoEventWireup="true" CodeBehind="seePanelForm.aspx.cs" Inherits="CRUD_LPPA.seeLogsForm" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
-    <link rel="stylesheet" type="text/css" href="./Content/styleUsersForm.css">
-    <script type="text/javascript" src="./Scripts/LPPA/LogsScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Content/stylePanelForm.css">
+    <script type="text/javascript" src="./Scripts/LPPA/PanelScript.js"></script>
 
 
     
     <div class="table-wrapper-scroll-y my-custom-scrollbar">
     <table class="table table-striped" id="usersTable" cellspacing="0";>
         <thead id="headContent">
-            <tr id="usersAtributes">
-                <th>Fecha</th>
-                <th>Usuario</th>
-                <th>Acción</th>
+            <tr id="usersAtributes" class="panel-titles">
+                <th>CINTA</th>
+                <th>BRAZO</th>
+                <th>PRENSA</th>
             </tr>
         </thead>
         <tbody id="rowContent">
@@ -35,7 +35,8 @@
                 });
                 $(".dataTables_empty").empty();
 
-                TestTablesLogs(false)
+                TestTablesPanel(true)
+                //retieveAllPanel(true)
 
                // evalAccessUser()
             })

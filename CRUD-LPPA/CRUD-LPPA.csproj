@@ -114,9 +114,11 @@
     <Content Include="Content\MasterStyle.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
+    <Content Include="Content\stylePanelForm.css" />
     <Content Include="Content\styleLogin.css" />
     <Content Include="Content\styleManageUsers.css" />
     <Content Include="Content\StyleDefault.css" />
+    <Content Include="Content\styleGraphicForm.css" />
     <Content Include="Content\styleUsersForm.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -134,6 +136,10 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Index.aspx" />
     <Content Include="manageUsersForm.aspx" />
+    <Content Include="Scripts\LPPA\PanelScript.js" />
+    <Content Include="Scripts\LPPA\GraphicScript.js" />
+    <Content Include="seeGraphicForm.aspx" />
+    <Content Include="seePanelForm.aspx" />
     <Content Include="seeLogsForm.aspx" />
     <Content Include="privilegesForm.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -223,6 +229,20 @@
     </Compile>
     <Compile Include="manageUsersForm.aspx.designer.cs">
       <DependentUpon>manageUsersForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seeGraphicForm.aspx.cs">
+      <DependentUpon>seeGraphicForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seeGraphicForm.aspx.designer.cs">
+      <DependentUpon>seeGraphicForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seePanelForm.aspx.cs">
+      <DependentUpon>seePanelForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seePanelForm.aspx.designer.cs">
+      <DependentUpon>seePanelForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="seeLogsForm.aspx.cs">
       <DependentUpon>seeLogsForm.aspx</DependentUpon>

@@ -1,7 +1,7 @@
 
 var localURL = "https://localhost:44307/user"; // TO DO
 
-async function requestLogssALL() {   //traigo todos los logs y los relleno en la tabla
+async function requestGraphicsALL() {   //traigo todos los bultos y los relleno en la tabla
     let response = await fetch(localURL, {
         method: 'GET',
         headers: { 'token': localStorage.getItem("token"),'Content-Type':'application / json'}
@@ -9,7 +9,7 @@ async function requestLogssALL() {   //traigo todos los logs y los relleno en la
     return response.json()
 }
 
-function retieveAllLogs(type) {
+function retieveAllGraphics(type) {
         requestUsersALL().then(returnedData => { 
 
         $("#rowContent tr").remove();
@@ -18,10 +18,10 @@ function retieveAllLogs(type) {
         for (obj in returnedData) {
             let i = 0
             var row = document.createElement("tr")
-            console.log(returnedData[obj])
+           // console.log(returnedData[obj])
             for (let key in returnedData[obj]) {
                 var cell = document.createElement("td")
-                console.log(key)
+               // console.log(key)
                 cell.innerHTML = returnedData[obj][key]
                 row.append(cell)
             }
@@ -61,12 +61,12 @@ function evalToken() {
 }
 
 //test sin backend de retrieveall
-function TestTablesLogs(type) {
+function TestTablesGraphic(type) {
     $("#rowContent tr").remove();
     var x = document.getElementById("rowContent")
 
 
-    let dData = '{"usuario1":{ "FechaHora": "1", "Usuario": "admin", "Accion": "test accion 1" }, "usuario2": { "FechaHora": "2", "Usuario": "pedro", "Accion": "test accion 2"}}'
+    let dData = '{"Bulto1":{ "ingresados": "1", "enProceso": "2","apilados":"4"}}'
 
     let a = JSON.parse(dData)
 

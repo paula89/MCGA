@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8" />
-    <title>Login - LPPACRUD</title>
+    <title>Login - MCGA</title>
     <link rel="stylesheet" type="text/css" href="/Content/styleLogin.css"/>
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 </head>

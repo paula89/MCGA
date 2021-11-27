@@ -35,8 +35,8 @@
                             <a runat="server" onclick="location.assign('Default.aspx?user='+document.getElementById('userTitle').innerHTML); return false;" class="list-group-item list-group-item-action" >Inicio</a>
                             <a runat="server" id="User" onclick="location.assign('seeUsersForm.aspx?user='+document.getElementById('userTitle').innerHTML);  return false;" class="list-group-item list-group-item-action" hidden>Usuarios</a>
                             <a runat="server" id="Admin" onclick="location.assign('seeUsersFormAdmin.aspx?user='+document.getElementById('userTitle').innerHTML); return false;" class="list-group-item list-group-item-action" hidden>Usuarios</a>
-                            <a runat="server" id="Panel" onclick="location.assign('seeLogsFormAdmin.aspx');return false;" class="list-group-item list-group-item-action" hidden>Panel de control</a>
-                            <a runat="server" id="Graficos" onclick="location.assign('seeLogsFormAdmin.aspx');return false;" class="list-group-item list-group-item-action" hidden>Gráficos</a>
+                            <a runat="server" id="Panel" onclick="location.assign('seePanelForm.aspx?user='+document.getElementById('userTitle').innerHTML);return false;" class="list-group-item list-group-item-action" hidden>Panel de control</a>
+                            <a runat="server" id="Graficos" onclick="location.assign('seeGraphicForm.aspx?user='+document.getElementById('userTitle').innerHTML);return false;" class="list-group-item list-group-item-action" hidden>Gráficos</a>
                             <a runat="server" id="Logs" onclick="location.assign('seeLogsForm.aspx?user='+document.getElementById('userTitle').innerHTML);return false;" class="list-group-item list-group-item-action" hidden>Logs</a>
 
                         </div>
