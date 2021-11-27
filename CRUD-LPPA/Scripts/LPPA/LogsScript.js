@@ -10,7 +10,7 @@ async function requestLogssALL() {   //traigo todos los logs y los relleno en la
 }
 
 function retieveAllLogs(type) {
-        requestUsersALL().then(returnedData => { 
+    requestLogssALL().then(returnedData => {
 
         $("#rowContent tr").remove();
         var x = document.getElementById("rowContent")
@@ -50,12 +50,10 @@ function evalToken() {
         }
         else {
             
-            logout()
-            
+            logout()            
         }
     }
-    else {
-        
+    else {        
         logout()
     }
 }
@@ -65,28 +63,18 @@ function TestTablesLogs(type) {
     $("#rowContent tr").remove();
     var x = document.getElementById("rowContent")
 
-
     let dData = '{"usuario1":{ "FechaHora": "1", "Usuario": "admin", "Accion": "test accion 1" }, "usuario2": { "FechaHora": "2", "Usuario": "pedro", "Accion": "test accion 2"}}'
 
     let a = JSON.parse(dData)
-
     console.log(a);
 
 
     for (obj in a) {
-
-
-
-        let i = 0
         var row = document.createElement("tr")
         console.log(a[obj])
-        //var row = x.insertRow(i-1)
         for (let key in a[obj]) {
             var cell = document.createElement("td")
-            //console.log(key)
-            //var cell = row.insertCell(i)
             cell.innerHTML = a[obj][key]
-            //i++
             row.append(cell)
         }
         if (type == true) {

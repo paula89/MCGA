@@ -215,8 +215,8 @@ C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\bin\Newtonsoft.Jso
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\bin\Antlr3.Runtime.pdb
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.csproj.AssemblyReference.cache
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.csproj.CoreCompileInputs.cache
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.csproj.CopyComplete
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.dll
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.pdb
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.csproj.AssemblyReference.cache

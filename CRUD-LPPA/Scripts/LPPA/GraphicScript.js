@@ -10,7 +10,7 @@ async function requestGraphicsALL() {   //traigo todos los bultos y los relleno 
 }
 
 function retieveAllGraphics(type) {
-        requestUsersALL().then(returnedData => { 
+    requestGraphicsALL().then(returnedData => {
 
         $("#rowContent tr").remove();
         var x = document.getElementById("rowContent")
@@ -48,14 +48,11 @@ function evalToken() {
         if (x > Date.parse(Date())) {
 
         }
-        else {
-            
-            logout()
-            
+        else {            
+            logout()            
         }
     }
-    else {
-        
+    else {        
         logout()
     }
 }
@@ -69,24 +66,13 @@ function TestTablesGraphic(type) {
     let dData = '{"Bulto1":{ "ingresados": "1", "enProceso": "2","apilados":"4"}}'
 
     let a = JSON.parse(dData)
-
     console.log(a);
 
-
     for (obj in a) {
-
-
-
-        let i = 0
         var row = document.createElement("tr")
-        console.log(a[obj])
-        //var row = x.insertRow(i-1)
         for (let key in a[obj]) {
             var cell = document.createElement("td")
-            //console.log(key)
-            //var cell = row.insertCell(i)
             cell.innerHTML = a[obj][key]
-            //i++
             row.append(cell)
         }
         if (type == true) {
