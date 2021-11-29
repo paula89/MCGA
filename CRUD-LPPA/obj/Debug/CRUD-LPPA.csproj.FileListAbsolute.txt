@@ -219,3 +219,4 @@ C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPP
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.csproj.CopyComplete
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.dll
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.pdb
+C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\CRUD-LPPA\obj\Debug\CRUD-LPPA.csproj.AssemblyReference.cache

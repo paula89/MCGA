@@ -141,7 +141,7 @@ function retrieveAllPanel() {
             let div = document.createElement("div")
             let cell = document.createElement("td")
 
-            label.innerHTML = status ? "Prendido" : "Apagado"
+            label.innerHTML = status ? "Libre" : "Ocupado"
             cell.className = "btn-center"
             div.role = "group"
             div.append(label)

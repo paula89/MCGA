@@ -13,7 +13,7 @@
                 <th>CINTA</th>
                 <th>BRAZO</th>
                 <th>PRENSA</th>
-                <th>Sensor Prensa On/Off</th>
+                <th>Sensor Prensa En uso</th>
                 <th>Posición Sensor Prensa</th>
             </tr>
         </thead>
