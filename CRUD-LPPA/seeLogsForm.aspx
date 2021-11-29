@@ -10,8 +10,9 @@
     <table class="table table-striped" id="usersTable" cellspacing="0";>
         <thead id="headContent">
             <tr id="usersAtributes">
+                <th>#</th>
+                <th>Componente</th>
                 <th>Fecha</th>
-                <th>Usuario</th>
                 <th>Acción</th>
             </tr>
         </thead>
@@ -35,8 +36,8 @@
                 });
                 $(".dataTables_empty").empty();
 
-                TestTablesLogs(false)
-
+                //TestTablesLogs(false)
+                retieveAllLogs()
                // evalAccessUser()
             })
         </script>

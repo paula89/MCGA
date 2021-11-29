@@ -62,7 +62,6 @@ async function requestPanel(sensor, estado) {
 
 function retrieveAllPanel() {
     requestPanelALL().then(returnedData => {
-        console.log('returnedData ::: ', returnedData)
         $("#rowContent tr").remove();
         var rowContent = document.getElementById("rowContent")
         var row = document.createElement("tr")
@@ -74,11 +73,8 @@ function retrieveAllPanel() {
             cellInner.innerHTML = returnedData[obj]
             var botonHabilitar = null
 
-            console.log('obj', obj)
-
             switch (obj) {
                 case 'cinta':
-                    let divCinta = document.createElement("div")
                     var botonHabilitarCinta = document.createElement("input")
                     botonHabilitarCinta.id = "BotonHabilitarCinta"
                     cellInner.innerHTML !== "true"
@@ -88,12 +84,9 @@ function retrieveAllPanel() {
                     botonHabilitarCinta.disabled = false
                     botonHabilitarCinta.addEventListener("click", function (e) { confirmPopUp(botonHabilitarCinta.value, "cinta") })
 
-                    //div = divCinta
-
                     botonHabilitar = botonHabilitarCinta
                     break;
                 case 'brazo':
-                    let divBrazo = document.createElement("div")
                     var botonHabilitarBrazo = document.createElement("input")
                     botonHabilitarBrazo.id = "BotonHabilitarBrazo"
                     cellInner.innerHTML !== "true"
@@ -103,11 +96,9 @@ function retrieveAllPanel() {
                     botonHabilitarBrazo.disabled = false
                     botonHabilitarBrazo.addEventListener("click", function (e) { confirmPopUp(botonHabilitarBrazo.value, "brazo") })
 
-                    //div = divBrazo
                     botonHabilitar = botonHabilitarBrazo
                     break;
                 case 'prensa':
-                    let divPrensa = document.createElement("div")
                     var botonHabilitarPrensa = document.createElement("input")
                     // estado de sensor de la prensa arriba abajo  false= arriba true=libre
                     //sensor prendido o apagado 
@@ -119,8 +110,6 @@ function retrieveAllPanel() {
                     botonHabilitarPrensa.disabled = false
                     botonHabilitarPrensa.addEventListener("click", function (e) { confirmPopUp(botonHabilitarPrensa.value, "prensa") })
 
-
-                   // div = divPrensa
                     botonHabilitar = botonHabilitarPrensa
                     break;
             }

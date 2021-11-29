@@ -1,15 +1,16 @@
 
-var localURL = "https://localhost:44307/user"; // TO DO
+var localURL = "https://localhost:44307/log";
 
 async function requestLogssALL() {   //traigo todos los logs y los relleno en la tabla
     let response = await fetch(localURL, {
         method: 'GET',
         headers: { 'token': localStorage.getItem("token"),'Content-Type':'application / json'}
     })
+    console.log('response ::: ', response)
     return response.json()
 }
 
-function retieveAllLogs(type) {
+function retieveAllLogs() {
     requestLogssALL().then(returnedData => {
 
         $("#rowContent tr").remove();
@@ -25,14 +26,14 @@ function retieveAllLogs(type) {
                 cell.innerHTML = returnedData[obj][key]
                 row.append(cell)
             }
-            if (type) {
+           
                 var cell = document.createElement("td")
     
                 var div = document.createElement("div")
                 
                 cell.append(div)
                 row.append(cell)
-            }
+            
             x.append(row)
 
         }
