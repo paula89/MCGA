@@ -38,7 +38,8 @@
                 });
                 $(".dataTables_empty").empty();
 
-                retieveAllGraphics();
+                setInterval(retieveAllGraphics, 3000)
+
                 //TestTablesGraphic(false)
 
                // evalAccessUser()

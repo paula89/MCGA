@@ -6,7 +6,6 @@ async function requestGraphicsALL() {   //traigo todos los bultos y los relleno 
         method: 'GET',
         headers: { 'token': localStorage.getItem("token"),'Content-Type':'application / json'}
     })
-    console.log(response);
     return response.json()
 }
 
@@ -33,7 +32,6 @@ function retieveAllGraphics(type) {
             }
         }
             for (let i = 0; i < 3; i++) {
-                  console.log(cantidades[i])
                     var cell = document.createElement("td")
                     cell.innerHTML = cantidades[i]
                     row.append(cell)   

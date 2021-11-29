@@ -47,7 +47,7 @@ namespace API_System.Controllers
             try
             {
                 var entity = new BandBLL();
-                await entity.Initialize();
+                await entity.Finalize();
                 _logger.LogInformation("Se finalizo la Cinta Correctamente.");
                 return "1";
             }

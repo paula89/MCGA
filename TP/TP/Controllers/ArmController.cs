@@ -43,7 +43,7 @@ namespace API_System.Controllers
             try
             {
                 var entity = new ArmBLL();
-                await entity.Initialize();
+                await entity.Finalize();
                 _logger.LogInformation("Se finalizo el Brazo Correctamente.");
                 return "1";
             }
