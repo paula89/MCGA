@@ -17,7 +17,7 @@
                 Si quiere aprender mas sobre el uso de la web, haga click en el botón debajo para acceder al manual.
             </p>
             <p>
-                <a class="btn btn-default" href="./GCU-GUIDE.pdf" target="_blank">Manual &raquo;</a>
+                <a class="btn btn-default" href="./Manual de Ayuda/Ayuda.chm" target="_blank">Manual &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -26,7 +26,7 @@
                 Si tiene interés en el desarrollo de esta web, la documentación está aqui debajo.
             </p>
             <p>
-                <a class="btn btn-default" href="/TPGRUPAL-LPPA-GCU.pdf" target="_blank">Documentación &raquo;</a>
+                <a class="btn btn-default" href="/TP GRUPAL - MCGA.pdf" target="_blank">Documentación &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">

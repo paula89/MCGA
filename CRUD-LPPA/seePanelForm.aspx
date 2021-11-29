@@ -13,8 +13,8 @@
                 <th>CINTA</th>
                 <th>BRAZO</th>
                 <th>PRENSA</th>
-                <th>Posición Sensor Prensa</th>
                 <th>Sensor Prensa On/Off</th>
+                <th>Posición Sensor Prensa</th>
             </tr>
         </thead>
         <tbody id="rowContent">
