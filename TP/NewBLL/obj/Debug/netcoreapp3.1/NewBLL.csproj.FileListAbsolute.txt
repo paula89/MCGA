@@ -1,0 +1,16 @@
+C:\repos\MCGA\TP\NewBLL\bin\Debug\netcoreapp3.1\NewBLL.deps.json
+C:\repos\MCGA\TP\NewBLL\bin\Debug\netcoreapp3.1\NewBLL.dll
+C:\repos\MCGA\TP\NewBLL\bin\Debug\netcoreapp3.1\NewBLL.pdb
+C:\repos\MCGA\TP\NewBLL\bin\Debug\netcoreapp3.1\Helpers.dll
+C:\repos\MCGA\TP\NewBLL\bin\Debug\netcoreapp3.1\NewDAL.dll
+C:\repos\MCGA\TP\NewBLL\bin\Debug\netcoreapp3.1\NewRepository.dll
+C:\repos\MCGA\TP\NewBLL\bin\Debug\netcoreapp3.1\Helpers.pdb
+C:\repos\MCGA\TP\NewBLL\bin\Debug\netcoreapp3.1\NewDAL.pdb
+C:\repos\MCGA\TP\NewBLL\bin\Debug\netcoreapp3.1\NewRepository.pdb
+C:\repos\MCGA\TP\NewBLL\obj\Debug\netcoreapp3.1\NewBLL.csprojAssemblyReference.cache
+C:\repos\MCGA\TP\NewBLL\obj\Debug\netcoreapp3.1\NewBLL.AssemblyInfoInputs.cache
+C:\repos\MCGA\TP\NewBLL\obj\Debug\netcoreapp3.1\NewBLL.AssemblyInfo.cs
+C:\repos\MCGA\TP\NewBLL\obj\Debug\netcoreapp3.1\NewBLL.csproj.CoreCompileInputs.cache
+C:\repos\MCGA\TP\NewBLL\obj\Debug\netcoreapp3.1\NewBLL.csproj.CopyComplete
+C:\repos\MCGA\TP\NewBLL\obj\Debug\netcoreapp3.1\NewBLL.dll
+C:\repos\MCGA\TP\NewBLL\obj\Debug\netcoreapp3.1\NewBLL.pdb

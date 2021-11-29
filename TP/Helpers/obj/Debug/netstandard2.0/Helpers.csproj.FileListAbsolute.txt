@@ -26,3 +26,12 @@ C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Helpers\obj\Debug\netstan
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Helpers\obj\Debug\netstandard2.0\Helpers.csproj.CoreCompileInputs.cache
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Helpers\obj\Debug\netstandard2.0\Helpers.dll
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Helpers\obj\Debug\netstandard2.0\Helpers.pdb
+C:\repos\MCGA\TP\Helpers\bin\Debug\netstandard2.0\Helpers.deps.json
+C:\repos\MCGA\TP\Helpers\bin\Debug\netstandard2.0\Helpers.dll
+C:\repos\MCGA\TP\Helpers\bin\Debug\netstandard2.0\Helpers.pdb
+C:\repos\MCGA\TP\Helpers\obj\Debug\netstandard2.0\Helpers.csprojAssemblyReference.cache
+C:\repos\MCGA\TP\Helpers\obj\Debug\netstandard2.0\Helpers.AssemblyInfoInputs.cache
+C:\repos\MCGA\TP\Helpers\obj\Debug\netstandard2.0\Helpers.AssemblyInfo.cs
+C:\repos\MCGA\TP\Helpers\obj\Debug\netstandard2.0\Helpers.csproj.CoreCompileInputs.cache
+C:\repos\MCGA\TP\Helpers\obj\Debug\netstandard2.0\Helpers.dll
+C:\repos\MCGA\TP\Helpers\obj\Debug\netstandard2.0\Helpers.pdb

@@ -1,0 +1,15 @@
+C:\repos\MCGA\TP\NewRepository\bin\Debug\netcoreapp3.1\NewRepository.deps.json
+C:\repos\MCGA\TP\NewRepository\bin\Debug\netcoreapp3.1\NewRepository.runtimeconfig.json
+C:\repos\MCGA\TP\NewRepository\bin\Debug\netcoreapp3.1\NewRepository.runtimeconfig.dev.json
+C:\repos\MCGA\TP\NewRepository\bin\Debug\netcoreapp3.1\NewRepository.dll
+C:\repos\MCGA\TP\NewRepository\bin\Debug\netcoreapp3.1\NewRepository.pdb
+C:\repos\MCGA\TP\NewRepository\bin\Debug\netcoreapp3.1\Helpers.dll
+C:\repos\MCGA\TP\NewRepository\bin\Debug\netcoreapp3.1\Helpers.pdb
+C:\repos\MCGA\TP\NewRepository\obj\Debug\netcoreapp3.1\NewRepository.csprojAssemblyReference.cache
+C:\repos\MCGA\TP\NewRepository\obj\Debug\netcoreapp3.1\NewRepository.AssemblyInfoInputs.cache
+C:\repos\MCGA\TP\NewRepository\obj\Debug\netcoreapp3.1\NewRepository.AssemblyInfo.cs
+C:\repos\MCGA\TP\NewRepository\obj\Debug\netcoreapp3.1\NewRepository.csproj.CoreCompileInputs.cache
+C:\repos\MCGA\TP\NewRepository\obj\Debug\netcoreapp3.1\NewRepository.csproj.CopyComplete
+C:\repos\MCGA\TP\NewRepository\obj\Debug\netcoreapp3.1\NewRepository.dll
+C:\repos\MCGA\TP\NewRepository\obj\Debug\netcoreapp3.1\NewRepository.pdb
+C:\repos\MCGA\TP\NewRepository\obj\Debug\netcoreapp3.1\NewRepository.genruntimeconfig.cache

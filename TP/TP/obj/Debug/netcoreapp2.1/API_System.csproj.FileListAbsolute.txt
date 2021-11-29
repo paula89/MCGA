@@ -1,0 +1,4 @@
+C:\repos\MCGA\TP\TP\obj\Debug\netcoreapp2.1\API_System.csprojAssemblyReference.cache
+C:\repos\MCGA\TP\TP\obj\Debug\netcoreapp2.1\API_System.AssemblyInfoInputs.cache
+C:\repos\MCGA\TP\TP\obj\Debug\netcoreapp2.1\API_System.AssemblyInfo.cs
+C:\repos\MCGA\TP\TP\obj\Debug\netcoreapp2.1\API_System.csproj.CoreCompileInputs.cache

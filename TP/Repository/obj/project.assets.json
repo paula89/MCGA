@@ -1984,6 +1984,9 @@
       "Helpers/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.10"
+        },
         "compile": {
           "bin/placeholder/Helpers.dll": {}
         },
@@ -6897,24 +6900,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\paula\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\alejo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\repos\\MCGA\\TP\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\paula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\Repository\\obj\\",
+      "projectPath": "C:\\repos\\MCGA\\TP\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\alejo\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\MCGA\\TP\\Repository\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\alejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6928,8 +6926,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\Helpers\\Helpers.csproj": {
-              "projectPath": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\Helpers\\Helpers.csproj"
+            "C:\\repos\\MCGA\\TP\\Helpers\\Helpers.csproj": {
+              "projectPath": "C:\\repos\\MCGA\\TP\\Helpers\\Helpers.csproj"
             }
           }
         }
@@ -6985,7 +6983,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,6 +4,8 @@ namespace Helpers.Response
 {
     public class UserListResponse
     {
+        private Package x;
+
         public int Id { get; set; }
         public string Username { get; set; }
 
@@ -11,6 +13,11 @@ namespace Helpers.Response
         {
             Id = user.Id;
             Username = user.Username;
+        }
+
+        public UserListResponse(Package x)
+        {
+            this.x = x;
         }
     }
 }

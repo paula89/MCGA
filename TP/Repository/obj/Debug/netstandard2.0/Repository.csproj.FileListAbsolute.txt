@@ -35,3 +35,15 @@ C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\nets
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.dll
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.pdb
+C:\repos\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.csprojAssemblyReference.cache
+C:\repos\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
+C:\repos\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs
+C:\repos\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.csproj.CoreCompileInputs.cache
+C:\repos\MCGA\TP\Repository\bin\Debug\netstandard2.0\Repository.deps.json
+C:\repos\MCGA\TP\Repository\bin\Debug\netstandard2.0\Repository.dll
+C:\repos\MCGA\TP\Repository\bin\Debug\netstandard2.0\Repository.pdb
+C:\repos\MCGA\TP\Repository\bin\Debug\netstandard2.0\Helpers.dll
+C:\repos\MCGA\TP\Repository\bin\Debug\netstandard2.0\Helpers.pdb
+C:\repos\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
+C:\repos\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.dll
+C:\repos\MCGA\TP\Repository\obj\Debug\netstandard2.0\Repository.pdb

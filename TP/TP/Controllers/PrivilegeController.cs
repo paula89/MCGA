@@ -55,7 +55,7 @@ namespace TP.Controllers
             try
             {
                 var entity = new PrivilegesBLL(UserKey());
-                entity.Create(request);
+                await entity.Create(request);
                 return "1";
             }
             catch

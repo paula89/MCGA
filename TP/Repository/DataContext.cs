@@ -8,10 +8,13 @@ namespace DAL
     public class DataContext : DbContext
     {
         /*Entidades*/
-        public Microsoft.EntityFrameworkCore.DbSet<Privilege> Privileges { get; set; }
-        public Microsoft.EntityFrameworkCore.DbSet<User> User { get; set; }
-        public Microsoft.EntityFrameworkCore.DbSet<UserPrivilege> UsersPrivileges { get; set; }
-        public Microsoft.EntityFrameworkCore.DbSet<RefreshToken> RefreshTokens { get; set; }
+        public DbSet<Privilege> Privileges { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<UserPrivilege> UsersPrivileges { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
+        public DbSet<Machine> Machines { get; set; }
+        public DbSet<Package> Packages { get; set; }
+        public DbSet<Log> Logs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -41,3 +41,17 @@ C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\DAL\obj\Debug\netstandard
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.dll
 C:\Users\paula\OneDrive\Escritorio\UAI\MCGA\TP\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.pdb
+C:\repos\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\repos\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\repos\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\repos\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\repos\MCGA\TP\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\repos\MCGA\TP\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\repos\MCGA\TP\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\repos\MCGA\TP\DAL\bin\Debug\netstandard2.0\Helpers.dll
+C:\repos\MCGA\TP\DAL\bin\Debug\netstandard2.0\Repository.dll
+C:\repos\MCGA\TP\DAL\bin\Debug\netstandard2.0\Repository.pdb
+C:\repos\MCGA\TP\DAL\bin\Debug\netstandard2.0\Helpers.pdb
+C:\repos\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+C:\repos\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\repos\MCGA\TP\DAL\obj\Debug\netstandard2.0\DAL.pdb
