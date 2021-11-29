@@ -1,7 +1,6 @@
 
 var localURL = "https://localhost:44307";
 
-//PressSensorStatus
 //orden  = cinta brazo prensa
 async function requestPanelALL() {   //traigo todos los estados de los sensores y los relleno en la tabla
     let response = JSON.parse('{ "cinta": false, "brazo": false, "prensa":false}')
@@ -59,7 +58,6 @@ async function requestPanel(sensor, estado) {
     return response.json();
 }
 
-
 function retrieveAllPanel() {
     requestPanelALL().then(returnedData => {
         $("#rowContent tr").remove();
@@ -100,7 +98,7 @@ function retrieveAllPanel() {
                     break;
                 case 'prensa':
                     var botonHabilitarPrensa = document.createElement("input")
-                    // estado de sensor de la prensa arriba abajo  false= arriba true=libre
+
                     //sensor prendido o apagado 
                     botonHabilitarPrensa.id = "BotonHabilitarPrensa"
                     cellInner.innerHTML !== "true"
@@ -123,7 +121,38 @@ function retrieveAllPanel() {
 
          }
         rowContent.append(row)
-     } )
+        sensorPressStatus().then(data =>{
+
+            let label = document.createElement("Label")
+            let div = document.createElement("div")
+            let cell = document.createElement("td")
+
+            label.innerHTML = status ? "Libre" : "Arriba"
+            cell.className = "btn-center"
+            div.role = "group"
+            div.append(label)
+            cell.append(div)
+            row.append(cell)
+            rowContent.append(row)
+        })
+
+        sensorPressOnOff().then(data => {
+            let label = document.createElement("Label")
+            let div = document.createElement("div")
+            let cell = document.createElement("td")
+
+            label.innerHTML = status ? "Prendido" : "Apagado"
+            cell.className = "btn-center"
+            div.role = "group"
+            div.append(label)
+            cell.append(div)
+            row.append(cell)
+            rowContent.append(row)
+        })
+
+    })
+
+  
 }
 
 
@@ -131,7 +160,7 @@ function retrieveAllPanel() {
 function confirmPopUp(value, sensor) {
     console.log(value)
     Swal.fire({
-        title: 'Confirme ' + value + ' el sensor ' + sensor,
+        title: 'Confirme ' + value + ' el/la ' + sensor,
            // text: "",
             icon: 'warning',
             showCancelButton: true,
@@ -148,7 +177,7 @@ function confirmPopUp(value, sensor) {
 
                     if (response === 1) {
                         Swal.fire(
-                            'Estado del sensor actualizado',
+                            'Estado actualizado',
                         ).then((result) => {
                             if (result.isConfirmed) {
                                 retrieveAllPanel()
@@ -279,8 +308,38 @@ function getID(e) {
 
 
 
+async function sensorPressStatus() {
+    let status = 0;
 
+    var response = await fetch(localURL + "/press/PressSensorStatus", {
+        method: 'GET',
+        headers: { 'Content-Type': 'application / json' }
+    }).then((res) =>
+        res.json()
+    ).then(j => {
+        status = j
+    })
 
+    console.log(status)
 
+    return status    
+}
+
+async function sensorPressOnOff() {
+    let status = 0;
+
+    var response = await fetch(localURL + "/press/PressIsIdle", {
+        method: 'GET',
+        headers: { 'Content-Type': 'application / json' }
+    }).then((res) =>
+        res.json()
+    ).then(j => {
+        status = j
+    })
+
+    console.log(status)
+
+    return status
+}
 
 
