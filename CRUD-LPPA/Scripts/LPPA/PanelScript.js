@@ -1,44 +1,89 @@
 
-var localURL = "https://localhost:44307/user"; // UPDATE
+var localURL = "https://localhost:44307";
 
-async function requestPanelALL() {   //traigo todos los bultos y los relleno en la tabla
-    let response = await fetch(localURL, {
+//TurnOffArm TurnOnBand TurnOnPress POST
+
+//orden  = cinta brazo prensa
+async function requestPanelALL(path) {   //traigo todos los estados de los sensores y los relleno en la tabla
+    let response = JSON.parse('{ "cinta": false, "brazo": false, "prensa":false}')
+
+    await fetch(localURL + "/band/GetBandStatus", {
         method: 'GET',
-        headers: { 'token': localStorage.getItem("token"),'Content-Type':'application / json'}
+        headers: { 'token': localStorage.getItem("token"), 'Content-Type': 'application / json' }
+    }).then((res) =>
+        res.json()
+    ).then(j => {
+        j === 1 ? response['cinta'] = true : response['cinta'] = false
     })
-    return response.json()
+
+
+    await fetch(localURL + "/arm/GetArmStatus", {
+        method: 'GET',
+        headers: { 'token': localStorage.getItem("token"), 'Content-Type': 'application / json' }
+    }).then((res) =>
+        res.json()
+    ).then(j => {
+        j === 1 ? response['brazo'] = true : response['brazo'] = false
+            })
+
+    await fetch(localURL + "/press/PressSensorStatus", {
+        method: 'GET',
+        headers: { 'token': localStorage.getItem("token"), 'Content-Type': 'application / json' }
+    }).then((res) =>
+        res.json()
+    ).then(j => {
+        j === true ? response['prensa'] = true : response['prensa'] = false
+    })
+
+    return response
 }
 
 // REVIEW
 async function requestPanel(sensor, estado) {
-    let response = await fetch(localURL + "/" + sensor, { // enviar el sensor y el estado para actualizar
-        method: 'PUT', 
+    var path = ''
+    switch (sensor) {
+        case 'prensa':
+            estado === 'Encender' ? path = '/TurnOnPress' : path = '/TurnOffPress'
+            break;
+        case 'brazo':
+            estado === 'Encender' ? path = '/TurnOnArm' : path = '/TurnOffArm'
+            break;
+        case 'cinta':
+            estado === 'Encender' ? path = '/TurnOnBand' : path = '/TurnOffBand'
+            break;
+        
+    }
+
+    let response = await fetch(localURL + path, { // enviar el sensor para actualizar
+        method: 'POST', 
         headers: { 'token': localStorage.getItem("token"), 'Content-Type': 'application / json' },
     })
     return response.json();
 }
 
 
-function retieveAllPanel() {
+function retrieveAllPanel() {
     requestPanelALL().then(returnedData => {
-
+        console.log('returnedData ::: ', returnedData)
         $("#rowContent tr").remove();
-        var x = document.getElementById("rowContent")
+        var rowContent = document.getElementById("rowContent")
+        let div = document.createElement("div")
+
 
         for (obj in returnedData) {
-
             var row = document.createElement("tr")
 
-            for (let key in returnedData[obj]) {
 
                 var cell = document.createElement("td")
                 var cellInner = document.createElement("td")
 
-                cellInner.innerHTML = returnedData[obj][key]
+                cellInner.innerHTML = returnedData[obj]
                 var botonHabilitar = null
-
-                switch (key) {
-                    case 'cinta':
+            console.log('obj', obj)   
+            switch (obj) {
+                case 'cinta':
+                    console.log('entre cinta')
+                    let divCinta = document.createElement("div")
                         var botonHabilitarCinta = document.createElement("input")
                         botonHabilitarCinta.id = "BotonHabilitarCinta"
 
@@ -48,9 +93,15 @@ function retieveAllPanel() {
                         cellInner.innerHTML === "true" ? botonHabilitarCinta.value = "Apagar" : botonHabilitarCinta.value = "Encender"
                         botonHabilitarCinta.disabled = false
                         botonHabilitarCinta.addEventListener("click", function (e) { confirmPopUp(botonHabilitarCinta.value, "cinta") })
-                        botonHabilitar = botonHabilitarCinta
+
+                    //div = divCinta
+
+                    botonHabilitar = botonHabilitarCinta
                         break;
-                    case 'brazo':
+                case 'brazo':
+                    console.log('entre brazo')
+                    let divBrazo = document.createElement("div")
+
                         var botonHabilitarBrazo = document.createElement("input")
                         botonHabilitarBrazo.id = "BotonHabilitarBrazo"
 
@@ -60,9 +111,14 @@ function retieveAllPanel() {
                         cellInner.innerHTML === "true" ? botonHabilitarBrazo.value = "Apagar" : botonHabilitarBrazo.value = "Encender"
                         botonHabilitarBrazo.disabled = false
                         botonHabilitarBrazo.addEventListener("click", function (e) { confirmPopUp(botonHabilitarBrazo.value, "brazo") })
-                        botonHabilitar = botonHabilitarBrazo
+
+                    //div = divBrazo
+                    botonHabilitar = botonHabilitarBrazo
                         break;
-                    case 'prensa':
+                case 'prensa':
+                    console.log('entre prensa')
+                    let divPrensa = document.createElement("div")
+
                         var botonHabilitarPrensa = document.createElement("input")
                         botonHabilitarPrensa.id = "BotonHabilitarPrensa"
 
@@ -72,21 +128,25 @@ function retieveAllPanel() {
                         cellInner.innerHTML === "true" ? botonHabilitarPrensa.value = "Apagar" : botonHabilitarPrensa.value = "Encender"
                         botonHabilitarPrensa.disabled = false
                         botonHabilitarPrensa.addEventListener("click", function (e) { confirmPopUp(botonHabilitarPrensa.value, "prensa") })
-                        botonHabilitar = botonHabilitarPrensa
+
+                   // div = divPrensa
+                    botonHabilitar = botonHabilitarPrensa
                         break;
 
-                }
-                var div = document.createElement("div")
-                cell.className = "btn-center"
-                div.role = "group"
-                div.append(botonHabilitar)
-                cell.append(div)
-                row.append(cell)
             }
 
+            cell.className = "btn-center"
+            div.role = "group"
+            div.append(botonHabilitar)
+            cell.append(div)
+            row.append(cell)
+               
 
-         }
-    })
+            }
+
+        rowContent.append(row)
+
+         } )
 }
 
 

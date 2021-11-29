@@ -7093,19 +7093,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alejo\\.nuget\\packages\\": {}
+    "C:\\Users\\paula\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\MCGA\\TP\\CL_Controll\\CL_Control.csproj",
+      "projectUniqueName": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\CL_Controll\\CL_Control.csproj",
       "projectName": "CL_Control",
-      "projectPath": "C:\\repos\\MCGA\\TP\\CL_Controll\\CL_Control.csproj",
-      "packagesPath": "C:\\Users\\alejo\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\MCGA\\TP\\CL_Controll\\obj\\",
+      "projectPath": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\CL_Controll\\CL_Control.csproj",
+      "packagesPath": "C:\\Users\\paula\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\CL_Controll\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\alejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7119,11 +7124,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\repos\\MCGA\\TP\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\repos\\MCGA\\TP\\BLL\\BLL.csproj"
+            "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\BLL\\BLL.csproj"
             },
-            "C:\\repos\\MCGA\\TP\\Helpers\\Helpers.csproj": {
-              "projectPath": "C:\\repos\\MCGA\\TP\\Helpers\\Helpers.csproj"
+            "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\Helpers\\Helpers.csproj": {
+              "projectPath": "C:\\Users\\paula\\OneDrive\\Escritorio\\UAI\\MCGA\\TP\\MCGA\\TP\\Helpers\\Helpers.csproj"
             }
           }
         }
@@ -7174,7 +7179,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

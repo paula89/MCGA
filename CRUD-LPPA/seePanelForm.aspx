@@ -35,7 +35,8 @@
                 });
                 $(".dataTables_empty").empty();
 
-                TestTablesPanel()
+                retrieveAllPanel()
+                //TestTablesPanel()
                 //retieveAllPanel(true)
 
                // evalAccessUser()

@@ -1,41 +1,50 @@
 
-var localURL = "https://localhost:44307/user"; // TO DO
+var localURL = "https://localhost:44307/Package/GetAllPackages"; 
 
 async function requestGraphicsALL() {   //traigo todos los bultos y los relleno en la tabla
     let response = await fetch(localURL, {
         method: 'GET',
         headers: { 'token': localStorage.getItem("token"),'Content-Type':'application / json'}
     })
+    console.log(response);
     return response.json()
 }
 
 function retieveAllGraphics(type) {
     requestGraphicsALL().then(returnedData => {
-
         $("#rowContent tr").remove();
         var x = document.getElementById("rowContent")
+        let cantidades = [0,0,0]
 
         for (obj in returnedData) {
-            let i = 0
             var row = document.createElement("tr")
-           // console.log(returnedData[obj])
-            for (let key in returnedData[obj]) {
-                var cell = document.createElement("td")
-               // console.log(key)
-                cell.innerHTML = returnedData[obj][key]
-                row.append(cell)
+
+            // 6 apilado   0ingresado 5prensado
+            switch (returnedData[obj]['Status']) {
+                case 0:
+                    cantidades[0] += 1
+                    break;
+                case 5:
+                    cantidades[1] += 1;
+                    break;
+                case 6:
+                    cantidades[2] += 1;
+                    break;
             }
-            if (type) {
-                var cell = document.createElement("td")
-    
+        }
+            for (let i = 0; i < 3; i++) {
+                  console.log(cantidades[i])
+                    var cell = document.createElement("td")
+                    cell.innerHTML = cantidades[i]
+                    row.append(cell)   
+            }
+                var cell = document.createElement("td")    
                 var div = document.createElement("div")
                 
                 cell.append(div)
                 row.append(cell)
-            }
-            x.append(row)
-
-        }
+            
+            x.append(row)        
     })
 }
 
